@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./fav.png" type="image/png">
+</head>
+<body>
+    <div class="main">
+        <div class="top-div">
+            <h1>Multiple Timers App</h1>
+            <div class="set-time">
+                <span>Set Time :</span>
+                <div class="inputs">
+                    <input id="hrInput" type="number" placeholder="hh" min="0" max="24">
+                    <span>:</span>
+                    <input id="minInput" type="number" placeholder="mm" min="0" max="60">
+                    <span>:</span>
+                    <input id="secInput" type="number" placeholder="ss" min="0" max="60">
+                </div>
+                <button class="setButton">Set</button>
+            </div>
+            <div class="current-timer">Current Timers</div>
+        </div>
+        <div class="bottom-div">
+            <span>You have no timers currently!</span>
+
+            <!-- this would be done using js -->
+            <!-- <div class="active-timer">
+                <span>Time Left :</span>
+                <div class="time">
+                    <div class="hour time">44</div>
+                    <span>:</span>
+                    <div class="miute time">44</div>
+                    <span>:</span>
+                    <div class="second time">44</div>
+                </div>
+                <button class="delete-button">Delete</button>
+            </div> -->
+        </div>
+    </section>
+    <audio id="audio-alert" src="alert.mp3"></audio>
+    <!-- script js -->
+    <script src="script.js"></script>
+</body>
+</html>
